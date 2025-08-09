@@ -127,7 +127,7 @@ function bmi(){
     let NewHeight= parseFloat(Height.value)/100;
     let NewWeight = parseFloat(Weight.value);
     let bmicalculate= NewWeight/(NewHeight**2);
-    let fixedBmiResult= Math.floor(bmicalculate);
+    let fixedBmiResult= bmicalculate.toFixed(2);
       if (fixedBmiResult < 18.5) {
         message = "Underweight ⚠️";
         bgClass = "#F59E0B";
