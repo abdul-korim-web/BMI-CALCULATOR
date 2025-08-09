@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.header-li{
+  @apply flex space-x-2 items-center  bg-blue-600 p-2 items-center bg-blue-600 p-2
+}
